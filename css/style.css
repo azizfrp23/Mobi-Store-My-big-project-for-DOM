@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,100;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.background{
+    background: url('https://i.pinimg.com/originals/41/af/32/41af324cb442ac07f6d2955c6a113174.jpg')center / cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.background h1{
+    margin: 0;
+    text-align: center;
+    font-size: 80px;
+    color: lightblue;
+    text-shadow: 0 0 10px lightblue;
+}
+.card{
+    display: flex;
+    justify-content: right;
+    padding-top: 150px;
+  
+
+}
+.card-center{
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    box-shadow: 0 10px 10px lightblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-center input{
+    width: 99%;
+    padding: 7px 0;
+    margin: 15px 0;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.9);
+    color: whitesmoke;
+}
+.card-center button{
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: grey;
+    cursor: pointer;
+    color: lightblue;
+}
+.help{
+    width: 300px;
+    height: 350px;
+    border: 1px solid white;
+    position: fixed;
+    left: 78%;
+    top : 100%;
+    z-index: 2 ;
+    border-radius: 15px;
+    transition: .3s
+    ;
+}
+.card_header{
+    background: rgb(226, 43, 43);
+    background: linear-gradient(90deg, rgba(62,41,41,1) 0%, rgba(215,27,27,1) 50%, rgba(60,33,33,1) 100%);
+    text-align: left;
+    padding: 13px 0 ;
+    padding-left: 10px;
+    border-radius: 12px;
+    
+
+}
+.card_header h4{
+    color: whitesmoke;
+
+}
+.card_header p{
+    color: grey;
+    font-size: 14px;
+}
+.card_footer input{
+    width: 99%;
+    padding: 12px 0;
+    margin: 0;
+    border-radius: 10px;
+    outline: 0;
+    
+}
+.card_footer{
+    position: relative;
+}
+.card_main{
+    background: whitesmoke;
+    width: 100%;
+    height: 70%;
+}
+.card_footer button{
+    position: absolute;
+    top: 0 ;
+    right: 0;
+    padding: 7px;
+    border-radius:5px ;
+    border: 0;
+    margin-top: 7px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: rgb(134, 219, 5);
+    color: whitesmoke;
+}
+.icon{
+    position: fixed;
+    bottom:  50%;
+    background: blue;
+    border-radius: 25px;
+    cursor: pointer;
+    right: 2%;
+    z-index: 2;
+    
+
+}
+.icon img {
+    padding: 8px 10px;
+}
+.help.active{
+    top: 52%;
+}
+.arrow.active{
+    transform: rotate(180deg);
+}
